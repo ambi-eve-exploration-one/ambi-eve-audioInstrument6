@@ -1,0 +1,30 @@
+.play {
+  cursor: pointer;
+}
+
+.skip {
+  cursor: pointer;
+}
+
+.shuffle {
+  cursor: pointer;
+}
+
+.content {
+  justify-content: center;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  border-width: 2px;
+  border-style: solid;
+  padding: 1.25ch;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
